@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RFIBAN-Helper"
-  s.version          = "3.0.5"
+  s.version          = "3.1"
   s.summary          = "A little helper to validate if an IBAN is valid (based on the country)."
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RFIBAN-Helper/Classes/**/*'
-  s.resources = 'RFIBAN-Helper/Assets/IBANStructure.plist'
+  s.source_files = 'Sources/**/*'
+  s.resources = 'Sources/Resources/IBANStructure.plist'
 end

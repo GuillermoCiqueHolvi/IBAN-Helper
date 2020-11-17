@@ -1,7 +1,4 @@
-//: Playground - noun: a place where people can play
-
-import UIKit
-@testable import RFIBANHelper
+import RFIBANHelper
 
 let sut = "GR160110125000000001230065"
 
@@ -18,6 +15,5 @@ result = RFIBANHelper.isValidIBAN(no2)
 let no3 = "NO9386011117947"
 
 result = RFIBANHelper.isValidIBAN(no3)
-
 
 let iban = RFIBANHelper.createIBAN("70580671290", countryCode: "NO")
